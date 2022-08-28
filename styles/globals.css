@@ -8,6 +8,6 @@
 /* Base Styling */
 @layer{
   body{
-    @apply bg-black text-[#949494] px-[100px]
+    @apply bg-black text-[#949494] px-[100px] overflow-x-hidden;
   }
 }
