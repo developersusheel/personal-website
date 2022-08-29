@@ -19,7 +19,7 @@ const Projects: NextPage = () => {
 
     <div className="pr-2 xl:pr-0 md:pr-2 sm:pr-2 max-w-[600px] xl:max-w-[1200px] md:max-w-[800px] mx-auto">
       <div>
-        <a href="#">
+        <a href="/mtp-provider">
           <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
           <h1 className="mt-5 text-3xl font-bold text-white">Lorem Ipsum Doler Sit Amet</h1>
           <p className="text-[18px] mt-2 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
@@ -27,7 +27,7 @@ const Projects: NextPage = () => {
       </div>
 
       <div className="mt-20">
-        <a href="#">
+        <a href="/mtp-provider">
           <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
           <h1 className="mt-5 text-3xl font-bold text-white">Lorem Ipsum Doler Sit Amet</h1>
           <p className="text-[18px] mt-2 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
@@ -35,7 +35,7 @@ const Projects: NextPage = () => {
       </div>
 
       <div className="mt-20">
-        <a href="#">
+        <a href="/mtp-provider">
           <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
           <h1 className="mt-5 text-3xl font-bold text-white">Lorem Ipsum Doler Sit Amet</h1>
           <p className="text-[18px] mt-2 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
@@ -43,7 +43,7 @@ const Projects: NextPage = () => {
       </div>
 
       <div className="mt-20">
-        <a href="#">
+        <a href="/mtp-provider">
           <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
           <h1 className="mt-5 text-3xl font-bold text-white">Lorem Ipsum Doler Sit Amet</h1>
           <p className="text-[18px] mt-2 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
@@ -51,7 +51,7 @@ const Projects: NextPage = () => {
       </div>
 
       <div className="mt-20">
-        <a href="#">
+        <a href="/mtp-provider">
           <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
           <h1 className="mt-5 text-3xl font-bold text-white">Lorem Ipsum Doler Sit Amet</h1>
           <p className="text-[18px] mt-2 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
@@ -59,7 +59,7 @@ const Projects: NextPage = () => {
       </div>
 
       <div className="mt-20 pb-[100px]">
-        <a href="#">
+        <a href="/mtp-provider">
           <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
           <h1 className="mt-5 text-3xl font-bold text-white">Lorem Ipsum Doler Sit Amet</h1>
           <p className="text-[18px] mt-2 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
