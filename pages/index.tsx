@@ -11,6 +11,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Susheel Kumar | Mern Stack Developer with 7+ years of experience</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&display=swap" rel="stylesheet" />
       </Head>
 
       {/* Hero Section */}
@@ -18,8 +19,8 @@ const Home: NextPage = () => {
         <div className="flex flex-col">
           <h1 className=" lg:text-7xl md:text-4xl sm:text-3xl text-3xl font-bold text-center xl:text-left md:text-center w-full leading-10 xl:leading-[80px] md:leading-[60px]">I’m Susheel — a collaborative and <br/> solution-driven full-stack developer <br/> with over 7+ years of experience.</h1>
           <div className="my-[50px] text-center xl:text-left md:text-center">
-            <button className="btn bg-[#111] w-full xl:w-auto md:w-auto px-10 py-3 my-2 rounded-full text-white hover:bg-[#161616] font-semibold"><GitHubIcon/> Visit LinkedIn</button>
-            <button className="btn bg-[#fff] w-full xl:w-auto md:w-auto mx-0 xl:mx-5 md:mx-0 px-10 py-3 my-2 rounded-full text-black mx-0 hover:bg-[#e8e8e8] font-semibold"><LinkedInIcon/> Visit LinkedIn</button>
+            <button className="btn bg-[#111] w-full xl:w-auto md:w-auto px-10 py-5 my-2 rounded-full text-white hover:bg-[#161616] font-semibold"><GitHubIcon/> Visit LinkedIn</button>
+            <button className="btn bg-[#fff] w-full xl:w-auto md:w-auto mx-0 xl:mx-5 md:mx-0 px-10 py-5 my-2 rounded-full text-black mx-0 hover:bg-[#e8e8e8] font-semibold mt-5 xl:mt-0 md:mt-0"><LinkedInIcon/> Visit LinkedIn</button>
           </div>
         </div>
       </section>
