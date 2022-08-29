@@ -14,54 +14,55 @@ const Home: NextPage = () => {
       </Head>
 
       {/* Hero Section */}
-      <section className="hero h-[85vh] flex items-center">
+      <section className="hero h-[70vh] w-full xl:h-[85vh] md:h-[70vh] flex items-center">
         <div className="flex flex-col">
-          <h1 className="text-5xl font-extrabold leading-[65px]">I’m Susheel — a collaborative and <br/> solution-driven full-stack developer <br/> with over 7+ years of experience.</h1>
+          <h1 className="lg:text-6xl md:text-4xl sm:text-3xl text-3xl font-extrabold text-center xl:text-left md:text-left ">I’m Susheel — a collaborative and <br/> solution-driven full-stack developer <br/> with over 7+ years of experience.</h1>
           <div className="my-[50px]">
-            <button className="btn bg-[#111] px-10 py-5 rounded-full text-white hover:bg-[#161616] font-semibold"><GitHubIcon/> Visit LinkedIn</button>
-            <button className="btn bg-[#fff] px-10 py-5 rounded-full text-black mx-5 hover:bg-[#e8e8e8] font-semibold"><LinkedInIcon/> Visit LinkedIn</button>
+            <button className="btn bg-[#111] w-full xl:w-auto md:w-auto px-10 py-3 my-2 rounded-full text-white hover:bg-[#161616] font-semibold"><GitHubIcon/> Visit LinkedIn</button>
+            <button className="btn bg-[#fff] w-full xl:w-auto md:w-auto px-10 py-3 my-2 rounded-full text-black mx-0 hover:bg-[#e8e8e8] font-semibold"><LinkedInIcon/> Visit LinkedIn</button>
           </div>
         </div>
       </section>
       {/* Hero Section */}
       
       {/* Work Projects */}
-      <section>
+      <section className="w-full">
         <p className="font-light">Work Projects</p>
-        <div className="flex flex-col">
-          <div className="flex flex-row my-[50px]">
-            <div className="pr-10">
-              <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif'/>
+        <div className="flex flex-col w-full">
+         
+          <div className="flex flex-col xl:flex-row md:flex-col mt-10 my-[0px] w-full">
+            <div className="pr-0 xl:pr-5 md:pr-0 w-full xl:w-1/2 md:xl:w-1/2">
+              <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
               <h3 className="py-5">Pfizer</h3>
             </div>
 
-            <div className="pl-10">
-              <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif'/>
+            <div className="pl-0 xl:pl-5 md:pl-0 w-full xl:w-1/2 md:xl:w-1/2">
+              <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
               <h3 className="py-5">Pfizer</h3>
             </div>
           </div>
 
           
-          <div className="flex flex-row  my-[50px]">
-            <div className="pr-10">
-              <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif'/>
+          <div className="flex flex-col xl:flex-row md:flex-col my-[0px] xl:my-[50px] w-full">
+          <div className="pr-0 xl:pr-5 md:pr-0 w-full xl:w-1/2 md:xl:w-1/2">
+              <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
               <h3 className="py-5">Pfizer</h3>
             </div>
 
-            <div className="pl-10">
-              <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif'/>
+            <div className="pl-0 xl:pl-5 md:pl-0 w-full xl:w-1/2 md:xl:w-1/2">
+              <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
               <h3 className="py-5">Pfizer</h3>
             </div>
           </div>
 
-          <div className="flex flex-row  my-[50px]">
-            <div className="pr-10">
-              <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif'/>
+          <div className="flex flex-col xl:flex-row md:flex-col my-[0px] xl:my-[50px] w-full">
+          <div className="pr-0 xl:pr-5 md:pr-0 w-full xl:w-1/2 md:xl:w-1/2">
+              <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
               <h3 className="py-5">Pfizer</h3>
             </div>
 
-            <div className="pl-10">
-              <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif'/>
+            <div className="pl-0 xl:pl-5 md:pl-0 w-full xl:w-1/2 md:xl:w-1/2">
+              <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
               <h3 className="py-5">Pfizer</h3>
             </div>
           </div>
@@ -72,12 +73,12 @@ const Home: NextPage = () => {
 
       {/* About Me */}
       <section>
-        <div className="w-screen h-[.3px] bg-[#242424] mt-[150px]"></div>
-        <div className="pt-[150px] flex flex-row">
-          <div className="w-1/2">
+        <div className="w-screen h-[.3px] bg-[#242424] mt-[20px] xl:mt-[150px] md:mt-[100px]"></div>
+        <div className="pt-[50px] xl:pt-[150px] md:pt-[100px] pb-[50px] xl:pb-[150px] md:pb-[100px] flex flex-col xl:flex-row md:flex-row sm:flex-col">
+        <div className="w-full xl:w-1/2 md:xl:w-1/2">
             <p className="font-light">About Me</p>
           </div>
-          <div className="w-1/2">
+          <div className="w-full xl:w-1/2 md:xl:w-1/2 mt-10 xl:mt-0 md:mt-10">
             <p>I am a collaborative and solution-driven technology manager with over 7 years of experience working with designers, developers,  and, programmers.</p>
             <p className="pt-10 pb-10">I apply my technical skills to develop applications and systems along with contributing to the team in a way that positively impacts the organisation and clients.</p>
 
@@ -97,12 +98,12 @@ const Home: NextPage = () => {
 
       {/* Skills */}
         <section>
-      <div className="w-screen h-[.3px] bg-[#242424] mt-[150px]"></div>
-      <div className="pt-[150px] pb-[150px] flex flex-row">
-        <div className="w-1/2">
+      <div className="w-screen h-[.3px] bg-[#242424] mt-[20px] xl:mt-[0px] md:mt-[0px]"></div>
+      <div className="pt-[50px] xl:pt-[150px] md:pt-[100px] pb-[50px] xl:pb-[150px] md:pb-[100px] flex flex-col xl:flex-row md:flex-row sm:flex-col">
+      <div className="w-full xl:w-1/2 md:xl:w-1/2">
           <p className="font-light">Capabilities</p>
         </div>
-        <div className="w-1/2">
+        <div className="w-full xl:w-1/2 md:xl:w-1/2 mt-10 xl:mt-0 md:mt-10">
           <p>I am a collaborative and solution-driven technology manager with over 7 years of experience working with designers, developers,  and, programmers.</p>
           <p className="pt-10 pb-10">I apply my technical skills to develop applications and systems along with contributing to the team in a way that positively impacts the organisation and clients.</p>
 
@@ -121,12 +122,12 @@ const Home: NextPage = () => {
 
       {/* Skills */}
       <section>
-        <div className="w-screen h-[.3px] bg-[#242424] mt-[150px]"></div>
-        <div className="pt-[150px] pb-[150px] flex flex-row">
-          <div className="w-1/2">
+        <div className="w-screen h-[.3px] bg-[#242424] mt-[20px] xl:mt-[0px] md:mt-[0px]"></div>
+        <div className="pt-[50px] xl:pt-[150px] md:pt-[100px] pb-[50px] xl:pb-[150px] md:pb-[100px] flex flex-col xl:flex-row md:flex-row sm:flex-col">
+          <div className="w-full xl:w-1/2 md:xl:w-1/2">
             <p className="font-light">Awards</p>
           </div>
-          <div className="w-1/2">
+          <div className="w-full xl:w-1/2 md:xl:w-1/2 mt-10 xl:mt-0 md:mt-10">
             <p>I am a collaborative and solution-driven technology manager with over 7 years of experience working with designers, developers,  and, programmers.</p>
             <p className="pt-10 pb-10">I apply my technical skills to develop applications and systems along with contributing to the team in a way that positively impacts the organisation and clients.</p>
 
@@ -145,18 +146,18 @@ const Home: NextPage = () => {
 
       {/* Connect */}
       <section>
-        <div className="w-screen h-[.3px] bg-[#242424] mt-[150px]"></div>
-        <div className="pt-[150px] pb-[150px] flex flex-col items-center">
+        <div className="w-screen h-[.3px] bg-[#242424] mt-[20px] xl:mt-[0px] md:mt-[0px]"></div>
+        <div className="pt-[50px] xl:pt-[100px] md:pt-[100px] sm:pt-[150px] pb-[50px] xl:pb-[100px] md:pb-[100px] sm:pb-[150px] flex flex-col items-center">
             <p className="font-light">Let's Connect</p>
-            <h1 className="text-5xl font-extrabold text-white mt-5">developer.susheel@gmail.com</h1>
+            <h1 className="text-2xl xl:text-5xl md:text-4xl sm:text-3xl font-extrabold text-white mt-5">developer.susheel@gmail.com</h1>
         </div>
         </section>
         {/* Connect */}
 
       {/* Connect */}
       <section>
-        <div className="w-screen h-[.3px] bg-[#242424] mt-[80px]"></div>
-        <div className="pt-[150px] pb-[150px] flex flex-row justify-between">
+        <div className="w-screen h-[.3px] bg-[#242424] mt-[20px] xl:mt-[80px] sm:md-[50px]"></div>
+        <div className="pt-[50px] xl:pt-[80px] md:pt-[100px] pb-[50px] xl:pb-[80px] md:pb-[100px] flex flex-row justify-between">
             <p className="font-bold text-white">@Susheel Kumar</p>
             <ul className="flex space-x-5">
               <li className="text-white"><LinkedInIcon/></li>
