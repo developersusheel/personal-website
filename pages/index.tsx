@@ -9,17 +9,17 @@ const Home: NextPage = () => {
     <>
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Susheel Kumar | Mern Stack Developer with 7+ years of experience</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       {/* Hero Section */}
-      <section className="hero h-[70vh] w-full xl:h-[85vh] md:h-[70vh] flex items-center">
+      <section className="hero h-[90vh] w-full xl:h-[85vh] md:h-[50vh] flex items-center">
         <div className="flex flex-col">
-          <h1 className="lg:text-6xl md:text-4xl sm:text-3xl text-3xl font-extrabold text-center xl:text-left md:text-left ">I’m Susheel — a collaborative and <br/> solution-driven full-stack developer <br/> with over 7+ years of experience.</h1>
-          <div className="my-[50px]">
+          <h1 className=" lg:text-7xl md:text-4xl sm:text-3xl text-3xl font-bold text-center xl:text-left md:text-center w-full leading-10 xl:leading-[80px] md:leading-[60px]">I’m Susheel — a collaborative and <br/> solution-driven full-stack developer <br/> with over 7+ years of experience.</h1>
+          <div className="my-[50px] text-center xl:text-left md:text-center">
             <button className="btn bg-[#111] w-full xl:w-auto md:w-auto px-10 py-3 my-2 rounded-full text-white hover:bg-[#161616] font-semibold"><GitHubIcon/> Visit LinkedIn</button>
-            <button className="btn bg-[#fff] w-full xl:w-auto md:w-auto px-10 py-3 my-2 rounded-full text-black mx-0 hover:bg-[#e8e8e8] font-semibold"><LinkedInIcon/> Visit LinkedIn</button>
+            <button className="btn bg-[#fff] w-full xl:w-auto md:w-auto mx-0 xl:mx-5 md:mx-0 px-10 py-3 my-2 rounded-full text-black mx-0 hover:bg-[#e8e8e8] font-semibold"><LinkedInIcon/> Visit LinkedIn</button>
           </div>
         </div>
       </section>
@@ -33,37 +33,37 @@ const Home: NextPage = () => {
           <div className="flex flex-col xl:flex-row md:flex-col mt-10 my-[0px] w-full">
             <div className="pr-0 xl:pr-5 md:pr-0 w-full xl:w-1/2 md:xl:w-1/2">
               <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
-              <h3 className="py-5">Pfizer</h3>
+              <h3 className="py-3">Pfizer</h3>
             </div>
 
-            <div className="pl-0 xl:pl-5 md:pl-0 w-full xl:w-1/2 md:xl:w-1/2">
+            <div className="pl-0 xl:pl-5 md:pl-0 w-full xl:w-1/2 md:xl:w-1/2 mt-[30px] xl:mt-[0px] md:mt-[0px] mb-[30px] xl:mb-[0px] md:mb-[0px]">
               <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
-              <h3 className="py-5">Pfizer</h3>
+              <h3 className="py-3">Pfizer</h3>
             </div>
           </div>
 
           
           <div className="flex flex-col xl:flex-row md:flex-col my-[0px] xl:my-[50px] w-full">
-          <div className="pr-0 xl:pr-5 md:pr-0 w-full xl:w-1/2 md:xl:w-1/2">
+            <div className="pr-0 xl:pr-5 md:pr-0 w-full xl:w-1/2 md:xl:w-1/2">
               <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
-              <h3 className="py-5">Pfizer</h3>
+              <h3 className="py-3">Pfizer</h3>
             </div>
 
-            <div className="pl-0 xl:pl-5 md:pl-0 w-full xl:w-1/2 md:xl:w-1/2">
+            <div className="pl-0 xl:pl-5 md:pl-0 w-full xl:w-1/2 md:xl:w-1/2 mt-[30px] xl:mt-[0px] md:mt-[0px] mb-[30px] xl:mb-[0px] md:mb-[0px]">
               <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
-              <h3 className="py-5">Pfizer</h3>
+              <h3 className="py-3">Pfizer</h3>
             </div>
           </div>
 
           <div className="flex flex-col xl:flex-row md:flex-col my-[0px] xl:my-[50px] w-full">
           <div className="pr-0 xl:pr-5 md:pr-0 w-full xl:w-1/2 md:xl:w-1/2">
               <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
-              <h3 className="py-5">Pfizer</h3>
+              <h3 className="py-3">Pfizer</h3>
             </div>
 
-            <div className="pl-0 xl:pl-5 md:pl-0 w-full xl:w-1/2 md:xl:w-1/2">
+            <div className="pl-0 xl:pl-5 md:pl-0 w-full xl:w-1/2 md:xl:w-1/2 mt-[30px] xl:mt-[0px] md:mt-[0px] mb-[30px] xl:mb-[0px] md:mb-[0px]">
               <img src='https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif' className="w-full"/>
-              <h3 className="py-5">Pfizer</h3>
+              <h3 className="py-3">Pfizer</h3>
             </div>
           </div>
 
@@ -104,7 +104,7 @@ const Home: NextPage = () => {
           <p className="font-light">Capabilities</p>
         </div>
         <div className="w-full xl:w-1/2 md:xl:w-1/2 mt-10 xl:mt-0 md:mt-10">
-          <p>I am a collaborative and solution-driven technology manager with over 7 years of experience working with designers, developers,  and, programmers.</p>
+          <p className="">I am a collaborative and solution-driven technology manager with over 7 years of experience working with designers, developers,  and, programmers.</p>
           <p className="pt-10 pb-10">I apply my technical skills to develop applications and systems along with contributing to the team in a way that positively impacts the organisation and clients.</p>
 
           <h3 className="font-bold text-white">Key Expertise</h3>
@@ -158,7 +158,7 @@ const Home: NextPage = () => {
       <section>
         <div className="w-screen h-[.3px] bg-[#242424] mt-[20px] xl:mt-[80px] sm:md-[50px]"></div>
         <div className="pt-[50px] xl:pt-[80px] md:pt-[100px] pb-[50px] xl:pb-[80px] md:pb-[100px] flex flex-row justify-between">
-            <p className="font-bold text-white">@Susheel Kumar</p>
+            <p className="font-bold text-white cursor-pointer">@Susheel Kumar</p>
             <ul className="flex space-x-5">
               <li className="text-white"><LinkedInIcon/></li>
               <li className="text-white"><GitHubIcon/></li>

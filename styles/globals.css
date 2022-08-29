@@ -8,6 +8,16 @@
 /* Base Styling */
 @layer{
   body{
-    @apply bg-black text-[#949494] px-8 lg:px-[100px] md:px-10 sm:px-10 overflow-x-hidden;
+    @apply bg-black text-[#949494] overflow-x-hidden pl-8 xl:px-[80px];
+  }
+  p{
+    @apply text-[18px] xl:text-[20px];
+  }
+  li{
+    @apply text-[18px] xl:text-[20px];
+  }
+  h3{
+    @apply text-[18px] xl:text-[20px];
   }
 }
+
