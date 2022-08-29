@@ -10,7 +10,8 @@ import Footer from '../components/Footer';
 const Home: NextPage = () => {
   return (
   <>
-  <div>
+  
+  <div className="max-w-[1600px] xl:max-w-[1600px] md:max-w-[800px] mx-auto">
     <Head>
       <title>Susheel Kumar | Mern Stack Developer with 7+ years of experience</title>
       <link rel="icon" href="/favicon.png" />
