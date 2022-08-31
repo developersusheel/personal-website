@@ -5,23 +5,10 @@ import Footer from "../components/Footer";
 // import useWindowSize from '../hooks/useWindowSize';
 
 const Projects: NextPage = () => {
-  // // Hooks
-  // const size = useWindowSize();
-
-  // Refs
-  const project = useRef<HTMLInputElement>(null);
-  const scrollContainer = useRef<HTMLInputElement>(null);
-
-  // useEffect(() => {
-  //   console.log(size.height);
-  //   document.body.style.height = `${
-  //     scrollContainer.current?.getBoundingClientRect().height
-  //   }px`;
-  // }, [size.height]);
 
   return (
     <>
-      <div className="project" ref={project}>
+      <div>
         <Head>
           <title>
             Projects | Mern Stack Developer with 7+ years of experience
@@ -33,7 +20,7 @@ const Projects: NextPage = () => {
           />
         </Head>
 
-        <div className="scroll" ref={scrollContainer}>
+        <div>
           <div className="pt-40 pb-10 xl:pb-30 md:pb-20 max-w-[600px] xl:max-w-[1200px] md:max-w-[800px] mx-auto">
             <p className="font-light mb-2">Work Projects</p>
             <h1 className="font-bold text-2xl xl:text-5xl md:text-3xl text-white leading-[40px] xl:leading-[65px] md:leading-[50px] max-w-[600px]">
@@ -44,13 +31,8 @@ const Projects: NextPage = () => {
           <div className="pr-2 xl:pr-0 md:pr-2 sm:pr-2 max-w-[600px] xl:max-w-[1200px] md:max-w-[800px] mx-auto">
             <div>
               <a href="/mtp-provider">
-                <img
-                  src="https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif"
-                  className="w-full"
-                />
-                <h1 className="mt-5 text-3xl font-bold text-white">
-                  Lorem Ipsum Doler Sit Amet
-                </h1>
+                <img src='./assets/organic.png' className="w-full border rounded-[20px]"/>
+                <h1 className="mt-10 text-3xl font-bold text-white">Lorem Ipsum Doler Sit Amet</h1>
                 <p className="text-[18px] mt-2 font-light">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -65,13 +47,8 @@ const Projects: NextPage = () => {
 
             <div className="mt-20">
               <a href="/mtp-provider">
-                <img
-                  src="https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif"
-                  className="w-full"
-                />
-                <h1 className="mt-5 text-3xl font-bold text-white">
-                  Lorem Ipsum Doler Sit Amet
-                </h1>
+                <img src='./assets/pfizer.png' className="w-full border rounded-[20px]"/>
+                <h1 className="mt-10 text-3xl font-bold text-white">Lorem Ipsum Doler Sit Amet</h1>
                 <p className="text-[18px] mt-2 font-light">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -86,13 +63,8 @@ const Projects: NextPage = () => {
 
             <div className="mt-20">
               <a href="/mtp-provider">
-                <img
-                  src="https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif"
-                  className="w-full"
-                />
-                <h1 className="mt-5 text-3xl font-bold text-white">
-                  Lorem Ipsum Doler Sit Amet
-                </h1>
+                <img src='./assets/cryamerica.png' className="w-full border rounded-[20px]"/>
+                <h1 className="mt-10 text-3xl font-bold text-white">Lorem Ipsum Doler Sit Amet</h1>
                 <p className="text-[18px] mt-2 font-light">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -107,13 +79,8 @@ const Projects: NextPage = () => {
 
             <div className="mt-20">
               <a href="/mtp-provider">
-                <img
-                  src="https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif"
-                  className="w-full"
-                />
-                <h1 className="mt-5 text-3xl font-bold text-white">
-                  Lorem Ipsum Doler Sit Amet
-                </h1>
+                <img src='./assets/mtp-provider.png' className="w-full border rounded-[20px]"/>
+                <h1 className="mt-10 text-3xl font-bold text-white">Lorem Ipsum Doler Sit Amet</h1>
                 <p className="text-[18px] mt-2 font-light">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -128,13 +95,8 @@ const Projects: NextPage = () => {
 
             <div className="mt-20">
               <a href="/mtp-provider">
-                <img
-                  src="https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif"
-                  className="w-full"
-                />
-                <h1 className="mt-5 text-3xl font-bold text-white">
-                  Lorem Ipsum Doler Sit Amet
-                </h1>
+                <img src='./assets/upes-tinder-cards.png' className="w-full border rounded-[20px]"/>
+                <h1 className="mt-10 text-3xl font-bold text-white">Lorem Ipsum Doler Sit Amet</h1>
                 <p className="text-[18px] mt-2 font-light">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -149,13 +111,8 @@ const Projects: NextPage = () => {
 
             <div className="mt-20 pb-[100px]">
               <a href="/mtp-provider">
-                <img
-                  src="https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder-800x423.gif"
-                  className="w-full"
-                />
-                <h1 className="mt-5 text-3xl font-bold text-white">
-                  Lorem Ipsum Doler Sit Amet
-                </h1>
+                <img src='./assets/tpt.png' className="w-full border rounded-[20px]"/>
+                <h1 className="mt-10 text-3xl font-bold text-white">Lorem Ipsum Doler Sit Amet</h1>
                 <p className="text-[18px] mt-2 font-light">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's

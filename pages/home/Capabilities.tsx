@@ -10,17 +10,16 @@ const Capabilities = () => {
             <p className="font-light">Capabilities</p>
         </div>
         <div className="w-full xl:w-1/2 md:xl:w-1/2 mt-10 xl:mt-0 md:mt-10">
-          <p className="">I am a collaborative and solution-driven technology manager with over 7 years of experience working with designers, developers,  and, programmers.</p>
-          <p className="pt-10 pb-10">I apply my technical skills to develop applications and systems along with contributing to the team in a way that positively impacts the organisation and clients.</p>
+          
 
-          <h3 className="font-bold text-white">Key Expertise</h3>
-          <ul className="mt-3 list-disc	pl-3 space-y-1">
-            <li>Build Scalable Design Team And Collaborative Processes</li>
-            <li>Quick User Research & Testing</li>
-            <li>Conversion-Oriented Digital User Experiences </li>
-            <li>Large Design Systems, Documenting Interfaces</li>
-            <li>Deep development understanding</li>
-          </ul>
+          <h3 className="font-bold text-white">Skills</h3>
+          <p>ReactJs, NodeJs, Express, JavaScript, MongoDB, GSAP, SCSS, HTML5, CSS3, Unit Testing, PHP, Shopify, Custom WordPress, AR Filters, React Native</p>
+
+          <h3 className="font-bold text-white mt-20">Tools</h3>
+          <p>Git, Gulp, Docker, Figma, Adobe Photoshop, AI, AdobeXD, Balasmiq, AR Spark</p>
+
+          <h3 className="font-bold text-white mt-20">Methodologies</h3>
+          <p>Agile, Kanban, Waterfall, Scrum</p>
         </div>
       </div>
     </section> 

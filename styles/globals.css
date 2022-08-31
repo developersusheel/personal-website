@@ -33,4 +33,10 @@
 .scroll{
   
 }
-
+.hero img{
+  box-shadow: 15px 15px rgba(255, 255, 255,  .2);
+  transition: all .5s ease;
+}
+.hero img:hover{
+  box-shadow: 8px 8px rgba(255, 255, 255,  .2);
+}
